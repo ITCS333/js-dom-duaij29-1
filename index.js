@@ -12,7 +12,7 @@ function changeHeadingText() {
  */
 function changeBoxColor() {
   // TODO: Implement this function
-  const box = document.querySelector('box-to-modify');
+  const box = document.querySelector('#box-to-modify');
   box.style.backgroundColor = "lightblue";
 }
 
