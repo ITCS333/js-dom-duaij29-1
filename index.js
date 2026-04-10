@@ -21,6 +21,13 @@ function changeBoxColor() {
  */
 function addNewItem() {
   // TODO: Implement this function
+  const ul = document.querySelector('#item-list');
+
+  const li = document.createElement('li');
+  li.textContent = 'New Item';
+
+  ul.appendChild(li);
+
 }
 
 /**
