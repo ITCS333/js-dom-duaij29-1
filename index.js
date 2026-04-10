@@ -3,6 +3,8 @@
  */
 function changeHeadingText() {
   // TODO: Implement this function
+  const h1 = document.querySelector("#main-heading");
+  h1.textContent = "DOM Manipulation Challenge";
 }
 
 /**
@@ -10,6 +12,8 @@ function changeHeadingText() {
  */
 function changeBoxColor() {
   // TODO: Implement this function
+  const box = document.querySelector('box-to-modify');
+  box.style.backgroundColor = "lightblue";
 }
 
 /**
