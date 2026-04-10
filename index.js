@@ -44,6 +44,11 @@ function highlightParagraph() {
  */
 function removeElement() {
   // TODO: Implement this function
+  const parent = document.querySelector(".container");
+  const p = document.querySelector("#to-be-removed");
+
+  parent.removeChild(p);
+
 }
 
 
