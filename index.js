@@ -35,6 +35,8 @@ function addNewItem() {
  */
 function highlightParagraph() {
   // TODO: Implement this function
+  const p = document.querySelector(".content-para");
+  p.class = 'highlight';
 }
 
 /**
